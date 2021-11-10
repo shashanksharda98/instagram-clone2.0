@@ -13,4 +13,17 @@
         @apply h-7 hover:scale-125 cursor-pointer
         transition-all duration-150 ease-out;
     }
+
+    .modal {
+        @apply bg-white w-2/6 h-2/3 p-5 z-50 rounded-2xl;
+    }
+    .ovrlay {
+        @apply absolute top-0 left-0 w-full h-full flex justify-center items-center bg-center bg-gray-500;
+    }
+    .hr {
+        @apply flex justify-end text-2xl;
+    }
+    .bdy {
+        @apply pt-3;
+    }
 }
